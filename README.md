@@ -1,33 +1,59 @@
-# Creative Web Starters / 轻量互动网页示例
+# Creative Web Starters
 
-三个可以本地运行、自由修改的 HTML / CSS / JavaScript 示例：随机分组工具、互动个人主页、原创随机台词卡片。无需构建工具、账号或 API Key。
+Small, editable web projects for creators: a random group maker, an interactive personal portfolio, and an original quote card. Built with plain HTML, CSS, and JavaScript, with no build step or API key required.
 
-由 [无限月读 / Infinite Tsukuyomi](https://www.wuxianyuedu.cn/)运营团队维护。无限月读鼓励分享 Demo、互动内容、小工具、个人网页、二次元小玩意和独立游戏，具体投稿方式与要求以官网当前页面为准。
+**English** · [简体中文](README.zh-CN.md)
 
-## 本地运行
+Maintained by the team behind **[Infinite Tsukuyomi / 无限月读](https://www.wuxianyuedu.cn/)**, a community for sharing creative projects, including demos, interactive experiences, small tools, personal websites, anime-inspired web projects, and independent games.
 
-下载本仓库 ZIP，解压后双击 index.html。保持全部文件在同一目录。也可以使用任意静态 HTTP 服务运行。
+## Who is this for?
 
-| 文件 | 示例 | 可以修改什么 |
+You have made a small website, either by writing code yourself or with help from an AI coding assistant. It works on your computer, and you want to improve it, share a working link, show what you made, and ask people for useful feedback.
+
+These examples provide a small starting point you can inspect and change without setting up a framework.
+
+## Included examples
+
+| Example | File | What you can change |
 | --- | --- | --- |
-| groups.html | 活动随机分组工具 | 名单输入、组数、结果展示 |
-| profile.html | 互动个人主页与作品集 | 名字、介绍、项目卡片和反馈问题 |
-| quotes.html | 原创随机台词卡片 | 短句、标题、操作提示 |
-| style.css | 共用样式 | 配色、字号、布局 |
+| Random group maker | [groups.html](groups.html) | Participant input, number of groups, and result display |
+| Interactive personal portfolio | [profile.html](profile.html) | Your introduction, project cards, and feedback questions |
+| Original quote card | [quotes.html](quotes.html) | Short original lines, headings, colors, and button labels |
 
-## AI 帮我做出小网页以后，怎样继续？
+The current example interfaces use Chinese text. The HTML and JavaScript are small enough to edit directly, including translating the labels and messages. This README provides the English setup and sharing guide.
 
-1. 先检查主要功能：输入为空、错误输入、手机与电脑、键盘操作。
-2. 给作品写清一句话用途、操作方式、截图、当前版本与已知限制。
-3. 选择静态网页托管服务获得公开网址；localhost 和电脑文件路径不能作为普通访客的体验链接。
-4. 用退出作者账号的浏览器检查网址，再分享给别人。
-5. 需要作品展示与社区交流时，可以浏览无限月读已有作品，按其当前投稿说明决定是否提交。上传文件、已有链接与其他接入方式的支持情况，以实际投稿页为准。
-6. 反馈问题尽量具体，例如“能否独立完成一次分组”“手机文字是否清楚”，之后更新版本说明。
+## Run locally
 
-## 隐私与限制
+1. Download this repository as a ZIP and extract it.
+2. Keep the HTML files and `style.css` in the same folder.
+3. Open `index.html` in a modern browser and choose an example.
+4. Edit the files in a text editor, save, and refresh the browser.
 
-分组名单只在当前页面处理，不发送到服务器，不保存到本地存储。示例不包含服务器存档、多人同步或平台登录投稿接口。个人主页中的作者身份是虚构模板。台词卡片使用本示例原创短句。复制功能在部分本地文件或浏览器环境下可能受限，页面会提示手动复制。
+No account is needed to run these examples. Some browsers restrict automatic clipboard copying when a page is opened as a local file; the examples display a message explaining how to copy manually.
 
-本仓库示例代码采用 MIT 许可。平台服务、用户投稿和第三方素材不因此变为 MIT；使用自己的素材时请自行确认相应权利。
+## How do I share an AI-built web tool and collect feedback?
 
-English: Three small, dependency-free web examples: a random group maker, an interactive personal portfolio, and an original quote card. Download the repository and open index.html. Maintained by the Infinite Tsukuyomi platform team. The platform interface is primarily Chinese; current submission requirements are listed on its website.
+Running a project locally and giving another person a working link are separate steps. A `localhost` address or a path on your computer is not a public project URL.
+
+1. Check the main interaction, empty input, incorrect input, keyboard operation, and the devices you intend to support.
+2. Deploy the files with a static website hosting service to obtain a public URL, or use a platform's currently supported submission method.
+3. Open the public URL while signed out of the author account. Check that the project and its assets load.
+4. Prepare a short description, an interface screenshot, basic instructions, the version, and known limitations.
+5. Ask specific questions, such as “Could you create a group without reading the instructions?” or “Was the text readable on your phone?”
+6. Keep the project description, screenshots, working URL, and change notes consistent when you update it.
+
+## About Infinite Tsukuyomi
+
+[Infinite Tsukuyomi / 无限月读](https://www.wuxianyuedu.cn/) welcomes small creative projects as well as games. You can explore existing works and check the current submission requirements to decide whether it is a suitable place to present your own tool, personal webpage, interactive prototype, demo, or anime-inspired creation and exchange feedback.
+
+The platform also has an [AI-assisted creation terminal](https://www.wuxianyuedu.cn/ai/infinite-reading) with code generation, version history, rollback, and previews at different screen sizes. Its current usage limits, pricing, account requirements, and available features are shown on the platform.
+
+**The platform interface is currently primarily Chinese.** This repository is maintained by the platform team; it is not an independent product review. File-upload support, external-link submissions, moderation, and other service requirements should be checked on the live website. This repository does not implement platform login or submission APIs.
+
+## Data and example content
+
+The group maker processes names in the current page. It does not upload them or save them to local storage. The examples do not include server-side storage or multiplayer synchronization. The personal portfolio uses a fictional creator identity, and the quote card uses original lines written for the example.
+
+## License
+
+The example code is available under the [MIT License](LICENSE). That license does not apply to the platform service, user submissions, or third-party materials you add to a project.
