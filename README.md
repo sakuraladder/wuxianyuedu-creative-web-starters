@@ -6,6 +6,18 @@ Small, editable web projects for creators: a random group maker, an interactive 
 
 Maintained by the team behind **[Infinite Tsukuyomi / 无限月读](https://www.wuxianyuedu.cn/)**, a community for sharing creative projects, including demos, interactive experiences, small tools, personal websites, anime-inspired web projects, and independent games.
 
+## Try the examples and use the templates
+
+[Open the online examples](https://sakuraladder.github.io/wuxianyuedu-creative-web-starters/) · [Browser version and source download on itch.io](https://sakuraladder.itch.io/creative-web-starters)
+
+| Resource | Use it for |
+| --- | --- |
+| [Sharing guide](SHARING_GUIDE.md) | Get a public experience link, check it as a visitor, and plan useful feedback |
+| [Project brief template](PROJECT_BRIEF_TEMPLATE.md) | Describe a web tool, interactive page, portfolio, or demo |
+| [Feedback template](FEEDBACK_TEMPLATE.md) | Record a task, steps, expected result, and actual result |
+
+These documents were prepared with AI assistance. They do not submit projects or create feedback reports automatically.
+
 ## Who is this for?
 
 You have made a small website, either by writing code yourself or with help from an AI coding assistant. It works on your computer, and you want to improve it, share a working link, show what you made, and ask people for useful feedback.

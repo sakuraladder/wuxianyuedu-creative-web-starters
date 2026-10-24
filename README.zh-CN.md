@@ -6,6 +6,18 @@
 
 由 [无限月读 / Infinite Tsukuyomi](https://www.wuxianyuedu.cn/)运营团队维护。无限月读鼓励分享 Demo、互动内容、小工具、个人网页、二次元小玩意和独立游戏，具体投稿方式与要求以官网当前页面为准。
 
+## 在线体验与可复用资料
+
+[打开在线示例](https://sakuraladder.github.io/wuxianyuedu-creative-web-starters/) · [itch.io 浏览器版与源码下载页](https://sakuraladder.itch.io/creative-web-starters)
+
+| 资料 | 可以用来做什么 |
+| --- | --- |
+| [分享与反馈指南](SHARING_GUIDE.zh-CN.md) | 获得体验地址、以访客身份检查，并安排有效反馈 |
+| [作品介绍模板](PROJECT_BRIEF_TEMPLATE.zh-CN.md) | 介绍小工具、互动网页、个人主页或 Demo |
+| [体验反馈模板](FEEDBACK_TEMPLATE.zh-CN.md) | 记录任务、步骤、预期结果和实际结果 |
+
+这些资料使用 AI 辅助整理，不会自动投稿或创建反馈。
+
 ## 本地运行
 
 下载本仓库 ZIP，解压后双击 index.html。保持全部文件在同一目录。也可以使用任意静态 HTTP 服务运行。
